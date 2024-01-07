@@ -28,8 +28,6 @@ body {
 
     font-size: 32px;
     font-weight: 400px;
-
-
 }
 
 .banner-description {
@@ -39,7 +37,30 @@ body {
     padding-left: 330px;
     text-align: center;
     width: 632px;
-
 }
 
+/* Ads Section Styles */
+.ads,
+.ads-title {
+    text-align: center;
+    margin-top: 120px;
+    color: #F00;
+}
 
+.ads-title {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.add-head {
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.add-details {
+    margin-top: 16px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
