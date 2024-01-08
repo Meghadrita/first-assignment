@@ -1,14 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Merriweather', serif;
-
-
 }
 
 /* Banner Styles */
 .banner,
 .welcome {
-    background-image: url('../resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     width: 82.5%;
     max-width: 1320px;
     height: 600px;
@@ -48,7 +46,7 @@ body {
     margin-top: 120px;
     color: #F00;
     font-family: 'Inter', sans-serif;
-
+    position: relative;
 }
 
 .ads-title {
@@ -121,4 +119,232 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+/* Time Table part  */
+.invitation {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin-left: 15%;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.time-table {
+    padding: 100px 386px 214px 385px;
+    text-align: center;
+    display: block;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.color-title,
+.holiday {
+    color: #F00;
+}
+
+.jbtn {
+    background: #F00;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Sales section */
+.seles {
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin-left: 15%;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.seles-content {
+    text-align: center;
+}
+
+.seles-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.seles-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    padding: 28px 126px 64px 126px;
+}
+
+.seles-head {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-pic1 {
+    width: 429px;
+    height: 433px;
+    margin-left: 890px;
+}
+
+.holidays-pic2 {
+    width: 1320px;
+    height: 229px;
+}
+
+
+/* Categories Section */
+.main {
+    margin-top: 600px;
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+    /* text-align: center; */
+    margin-left: 290px;
+    margin-bottom: none;
+}
+
+.cat-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cat-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: Merriweather;
+}
+.cat-details{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+}
+.img-college {}
+
+
+/* Subscribe Section  */
+
+.subscrib-container {
+    margin-top: none;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin-left: 15%;
+    margin-top: 50px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.subscrib-content {
+    text-align: center;
+    align-items: center;
+}
+
+.sub-img {
+    /* text-align: center; */
+    padding: 90px 585px 214px 385px;
+    width: 150px;
+    height: 150px;
+    /* align-items: center; */
+
+}
+
+.sub-details {
+    /* padding: 270px 404px 286px 404px; */
+}
+
+.sub-title {
+    /* padding: 270px 404px 286px 404px; */
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sub-description {
+    /* padding: 352px 212px 200px 212px; */
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+
+
+/* Footer Section  */
+.footer-section {
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    margin: 120px 100px;
+
+}
+
+.footer-column {
+
+    display: flex;
+    gap: 600px;
+}
+
+.fdescription,
+.contact {
+    color: #FFF;
+    font-family: Inter;
+    /* font-size: 24px; */
+    /* font-weight: 500; */
+    line-height: 40px;
+    /* padding: 120px 1085px 409px 140px; */
+}
+
+.contact {
+    /* padding: 120px 291px 449px 1114px; */
+}
+
+.social-media {
+    padding: 50px 655px;
+    align-items: center;
+}
+
+.comment {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
