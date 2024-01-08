@@ -1,6 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Merriweather', serif;
+
+
 }
 
 /* Banner Styles */
@@ -45,11 +47,14 @@ body {
     text-align: center;
     margin-top: 120px;
     color: #F00;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .ads-title {
     font-size: 80px;
     font-weight: 700;
+
 }
 
 .add-head {
@@ -64,45 +69,56 @@ body {
     font-size: 48px;
     font-weight: 700;
 }
+
 /* Welcome Section Styles */
 .welcome {
     background-image: url('../resources/Vectorrr.png');
-    width: 1320px;
-    height: 600px;
     margin-top: 120px;
 }
-.welcome-details{
+
+.welcome-content {
+    display: flex;
+    gap: 30px;
+}
+
+.welcome-details {
     padding-top: 50px;
     padding-left: 126px;
+    text-align: left;
 }
-.Welcome-title{
+
+.Welcome-title {
     width: 642px;
     color: #fff;
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 24px;
 }
-.welcome-description{
+
+.welcome-description {
     margin-top: 0px;
     width: 697px;
     font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.80);
 }
-.btn{
-    margin-top: 48px;
+
+.btn {
+    margin-top: 40px;
+    margin-left: 20px;
     border: none;
     background-color: transparent;
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+    text-align: left;
 }
-/* .year{ 
-    display: flex;
+
+.year {
     width: 319.83px;
     height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
+    padding: 69.1px 0px 0px 0px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-}*/
+}
