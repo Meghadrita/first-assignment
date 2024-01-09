@@ -40,8 +40,8 @@ body {
 }
 
 /* Ads Section Styles */
-.ads,
-.ads-title {
+.ads {
+    margin-right: 510px;
     text-align: center;
     margin-top: 120px;
     color: #F00;
@@ -52,6 +52,11 @@ body {
 .ads-title {
     font-size: 80px;
     font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    position: relative;
 
 }
 
@@ -110,15 +115,17 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .year {
     width: 319.83px;
-    height: 464.662px;
+    height: 464.662px;  
     padding: 69.1px 0px 0px 0px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+
 }
 
 /* Time Table part  */
@@ -128,7 +135,6 @@ body {
     max-width: 1320px;
     height: 600px;
     margin-left: 15%;
-    /* background-repeat: no-repeat; */
     position: relative;
     margin-top: 50px;
     border-radius: 16px;
@@ -162,6 +168,8 @@ body {
     border-radius: 8px;
     border: none;
 }
+/* Cooming Soon */
+
 
 /* Sales section */
 .seles {
@@ -210,141 +218,228 @@ body {
     height: 229px;
 }
 
+.holidays-pic3 {
+    position: absolute;
+    width: 206.841px;
+    height: 206.841px;
+    margin-left: -560px;
+    margin-top: -300px;
+}
+
+.holidays-pic4 {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    margin-top: -380px;
+    margin-left: -1290px;
+}
 
 /* Categories Section */
-.main {
+.categories {
+    margin-left: 100px;
+}
+
+.cat-description {
     margin-top: 600px;
-    width: 1600px;
-    height: 7335px;
-    background: #FFF;
-    /* text-align: center; */
-    margin-left: 290px;
-    margin-bottom: none;
+    margin-left: 140px;
+    padding-left: 160px;
 }
 
 .cat-head {
-    color: #F00;
-    font-family: Inter;
+    color: #f00;
     font-size: 24px;
     font-weight: 500;
-    line-height: normal;
+    font-family: Inter;
+
 }
 
 .cat-title {
+    margin-top: 0;
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
-    font-family: Merriweather;
+    margin-bottom: 22px;
+
 }
-.cat-details{
-    width: 896px;
+
+.cat-details {
+    margin-top: 0;
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; 
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    font-family: Inter;
+
 }
-.img-college {}
+
+.products {
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 48px;
+    padding: 0px 300px 0px 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
 
 /* Subscribe Section  */
 
 .subscrib-container {
-    margin-top: none;
+    margin-bottom: none;
     width: 82.5%;
     max-width: 1320px;
     height: 600px;
     margin-left: 15%;
-    margin-top: 50px;
-    border-radius: 16px;
+    margin-top: 400px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-
 }
 
 .subscrib-content {
     text-align: center;
-    align-items: center;
+    margin-top: 200px;
+
 }
 
 .sub-img {
-    /* text-align: center; */
-    padding: 90px 585px 214px 385px;
-    width: 150px;
-    height: 150px;
-    /* align-items: center; */
+    text-align: center;
+    margin-top: 200px;
+    padding: 80px 585px 30px 585px;
 
 }
 
 .sub-details {
-    /* padding: 270px 404px 286px 404px; */
+    text-align: center;
 }
 
 .sub-title {
-    /* padding: 270px 404px 286px 404px; */
+    margin-top: 40px;
     color: #070211;
-    font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    text-transform: capitalize;
+    margin-bottom: 22px;
+    text-align: center;
 }
 
 .sub-description {
-    /* padding: 352px 212px 200px 212px; */
+    margin-top: 0px;
+    width: 896px;
+    height: 64px;
+    margin-left: 212px;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px;
+    margin-bottom: 48px;
 }
 
+.sub-btn {
+    text-align: center;
+}
 
+.mail {
+    border: 0;
+    margin-top: 0px;
+    width: 648px;
+    height: 72px;
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+}
 
+.sub1 {
+
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-left: -4px;
+}
+
+.subtn {
+    color: #fff;
+    height: 98px;
+    width: 24px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border: none;
+
+}
 
 
 /* Footer Section  */
-.footer-section {
-    width: 1600px;
-    height: 609px;
-    flex-shrink: 0;
-    background: #070211;
-    margin: 120px 100px;
 
+
+.end-part {
+    width: 65%;
+    max-width: 2000px;
+    height: 620px;
+    background: #070211;
+    margin-top: 100px;
+    margin-left: 220px;
 }
 
 .footer-column {
-
-    display: flex;
-    gap: 600px;
-}
-
-.fdescription,
-.contact {
     color: #FFF;
-    font-family: Inter;
-    /* font-size: 24px; */
-    /* font-weight: 500; */
-    line-height: 40px;
-    /* padding: 120px 1085px 409px 140px; */
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+    margin-left: 140px;
+    width: 400px;
+}
+
+.footer-section {
+    display: flex;
+
 }
 
 .contact {
-    /* padding: 120px 291px 449px 1114px; */
+    padding-top: 120px;
+    margin-left: 750px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.line {
+    margin-left: 140px;
+    margin-right: 140px;
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
 }
 
 .social-media {
-    padding: 50px 655px;
-    align-items: center;
+    margin-top: 48px;
+}
+
+.media {
+    display: flex;
+    margin-left: 750px;
+    gap: 24px;
+    margin-bottom: 48px;
 }
 
 .comment {
     color: #FFF;
-
+    margin-top: 50px;
+    margin-left: 140px;
+    display: flex;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    justify-content: space-between;
+
+
+}
+
+.comment1 {
+    margin-right: 140px;
 }
